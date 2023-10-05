@@ -38,13 +38,12 @@ public class Ejercicio5T2 {
 			} else {
 				System.out.println("Números ordenados de mayor a menor: " + numero2 + ", " + numero3 + ", " + numero1);
 			}
-		} else {
-			if (numero1 >= numero2) {
+		} else if (numero1 >= numero2) {
 				System.out.println("Números ordenados de mayor a menor: " + numero3 + ", " + numero1 + ", " + numero2);
-			} else {
+		} else {
 				System.out.println("Números ordenados de mayor a menor: " + numero3 + ", " + numero2 + ", " + numero1);
-			}
 		}
+		 
 
 		// Cerramos el Scanner
 		sc.close();
