@@ -20,13 +20,13 @@ public class Ejercicio5T2_2 {
 		
 		// Comprobamos a que que esta asociado dicho carnet
 		switch (carnet) {
-		case "E" -> System.out.println("Remolques");
-		case "D" -> System.out.println("Autobuses");
-		case "C1" -> System.out.println("Camiones");
-		case "C5" -> System.out.println("Camiones");
-		case "A" -> System.out.println("Motos");
-		case "B1" -> System.out.println("Automóviles");
-		case "B2" -> System.out.println("Automóviles");
+		case "E" -> System.out.println("Este carnet pertenece a los remolques");
+		case "D" -> System.out.println("Este carnet pertenece a los autobuses");
+		case "C1" -> System.out.println("Este carnet pertenece a los camiones");
+		case "C5" -> System.out.println("Este carnet pertenece a los camiones");
+		case "A" -> System.out.println("Este carnet pertenece a las motos");
+		case "B1" -> System.out.println("Este carnet pertenece a los automóviles");
+		case "B2" -> System.out.println("Este carnet pertenece a los automóviles");
 		default -> System.out.println("ERROR");
 		}
 
