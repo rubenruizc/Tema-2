@@ -21,6 +21,7 @@ public class Ejercicio6T2 {
 		double resultado2;
 
 		double resultado3;
+		
 		// Declaramos la variable donde guardaremos el valor de la raíz
 		double raiz;
 

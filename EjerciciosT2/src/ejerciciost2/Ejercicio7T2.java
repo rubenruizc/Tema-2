@@ -8,14 +8,19 @@ public class Ejercicio7T2 {
 
 		// Declaramos la variable donde guardamos el número del usuario
 		int num;
+		
 		// Scanner para leer del teclado
 		Scanner sc = new Scanner(System.in);
+		
 		// Le explicamos al usuario en que consiste el ejercicio
 		System.out.println("El ejercicio consiste en decirte cuantas cifras tiene su número.");
+		
 		// Le pedimos al usuario que nos diga un número entre 0 y 99.999
 		System.out.print("Escriba un número comprendido entre 0 y 99.999: ");
+		
 		// Leemos el número
 		num = sc.nextInt();
+		
 		// Comprobamos cuantas cifras tiene el número del usuario
 		if (num >= 0 && num <= 9) {
 			System.out.println("Su número tiene una única cifra.");
@@ -30,10 +35,10 @@ public class Ejercicio7T2 {
 		} else {
 			System.out.println("Su número no se puede registrar, inténtelo de nuevo.");
 		}
-		
+
 		// Cerramos el Scanner
 		sc.close();
-		
+
 	}// Cierre del main
 
 }// Cierre de la clase
