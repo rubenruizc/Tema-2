@@ -48,9 +48,7 @@ public class Ejercicio4T2_2 {
 
 		// Le damos valores a los números introducidos con letras (2ºtirada)
 		switch (tirada2) {
-		case "UNO" ->{ valorTirada2 = 1;
-		System.out.println();
-		}
+		case "UNO" ->valorTirada2 = 1;
 		case "DOS" -> valorTirada2 = 2;
 		case "TRES" -> valorTirada2 = 3;
 		case "CUATRO" -> valorTirada2 = 4;
