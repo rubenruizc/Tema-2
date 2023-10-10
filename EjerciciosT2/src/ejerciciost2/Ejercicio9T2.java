@@ -34,9 +34,15 @@ public class Ejercicio9T2 {
 		// Opciones para que el jugador 1 gane
 		if ((ele1 == 1 && ele2 == 2) || (ele1 == 2 && ele2 == 3) || (ele1 == 3 && ele2 == 1)) {
 			System.out.println("Gana el jugador 1.");
+			
 			// Opciones para que el jugador 2 gane
 		} else if ((ele1 == 2 && ele2 == 1) || (ele1 == 2 && ele2 == 3) || (ele1 == 1 && ele2 == 3)) {
 			System.out.println("Gana el jugador 2.");
+			
+			//Opción para empatar
+		} else if (ele1 == ele2) {
+			System.out.println("EMPATE");
+			
 			// Opción para que la partida no valga
 		} else {
 			System.out.println("Partida no válida.");
