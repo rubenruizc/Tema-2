@@ -11,7 +11,8 @@ public class Ejercicio3T2_3 {
 
 		// Variable donde guardaremos la suma de los números
 		float media = 0;
-
+		
+		//Variable donde guardaremos la cantidad de números introducidos
 		float contador = 0;
 
 		// Scanner para leer del teclado
