@@ -12,7 +12,7 @@ public class Ejercicio6T2_3 {
 		Scanner sc = new Scanner(System.in);
 
 		while (edad >= 0) {
-			System.out.println("Escriba una edad");
+			System.out.println("Escriba una edad:");
 			edad = sc.nextInt();
 			sumaEdad += edad;
 			numAlumno++;
@@ -26,7 +26,7 @@ public class Ejercicio6T2_3 {
 			numAlumno--;
 		}
 		
-		System.out.println("Todas las edades sumadas son:" + sumaEdad);
+		System.out.println("Todas las edades sumadas son: " + sumaEdad);
 		System.out.println("Hay una cantidad de: " + numAlumno + " alumnos");
 		System.out.println("Hay una cantidad de " + mayorEdad + " mayores de edad");
 
