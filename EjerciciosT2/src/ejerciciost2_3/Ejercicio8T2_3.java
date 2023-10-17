@@ -35,11 +35,10 @@ public class Ejercicio8T2_3 {
 
 		}
 
-		// Comprobamos si la altura añadida es igual a -1 y decimos cual ha sido la altura más alta
-		if (alturaArbol == -1) {
-			System.out.println("La altura del árbol más alto es: " + alturaMasAlta + " centímetros.");
+		// Comprobamos si la altura añadida es igual a -1 y decimos cual ha sido la
+		// altura más alta
 
-		}
+		System.out.println("La altura del árbol más alto es: " + alturaMasAlta + " centímetros.");
 
 		// Cerramos el Scanner
 		sc.close();
