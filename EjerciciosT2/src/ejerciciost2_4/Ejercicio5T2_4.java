@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ejercicio5T2_4 {
 
 	public static void main(String[] args) {
-
+		
 		// Variable donde guardaremos el número mínimo del número random
 		int min = 1;
 
