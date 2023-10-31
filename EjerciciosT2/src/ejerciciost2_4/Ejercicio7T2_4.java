@@ -51,7 +51,7 @@ public class Ejercicio7T2_4 {
 				// Leemos de nuevo la opción
 				opcion = sc.next();
 			}
-
+			
 			// Realizamos diferentes operaciones dependiendo de la opción del usuario
 			switch (opcion) {
 			case "A" -> {
