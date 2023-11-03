@@ -11,7 +11,7 @@ public class Ejercicio5T2_5 {
 		int suma=0;
 		Scanner sc = new Scanner (System.in);
 		for (int i = 0;i<10;i++) {
-			System.out.println("Escriba un número");
+			System.out.print("Escriba un número: ");
 			numero = sc.nextInt();
 			suma+=numero;
 		}
